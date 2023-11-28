@@ -75,7 +75,7 @@
                             </button>
                             <div class="callout callout-danger">
                                 <i class="fa fa-clock-o"></i> <strong class="countdown" data-time="<?= date('Y-m-d H:i:s', strtotime($ujian->terlambat)) ?>">00 Hari, 00 Jam, 00 Menit, 00 Detik</strong><br />
-                                Terlambat menekan tombol start
+                                Sebelum terlambat menekan tombol start
                             </div>
                         <?php else : ?>
                             <div class="callout callout-danger">

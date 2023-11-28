@@ -55,7 +55,7 @@
 	let base_url = '<?= base_url() ?>';
 </script>
 
-<body class="hold-transition skin-yellow sidebar-mini">
+<body class="hold-transition skin-blue sidebar-mini">
 	<div class="wrapper">
 
 		<header class="main-header">

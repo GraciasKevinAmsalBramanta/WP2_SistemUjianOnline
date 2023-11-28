@@ -55,7 +55,7 @@
 			h = ("0" + h).slice(-2);
 			m = ("0" + m).slice(-2);
 			s = ("0" + s).slice(-2);
-			var cd = d + " Day, " + h + " Hours, " + m + " Minute, " + s + " Second ";
+			var cd = d + " Hari, " + h + " Jam, " + m + " Menit, " + s + " Detik ";
 			$('.countdown').html(cd);
 
 			setTimeout(function() {

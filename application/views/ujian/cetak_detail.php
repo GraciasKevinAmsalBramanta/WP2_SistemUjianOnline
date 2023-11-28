@@ -82,7 +82,7 @@ Semua informasi yang ada di bawah adalah Nilai Tertinggi, Nilai Terendah, dan Ra
     <tr>
         <th><b>Total Pertanyaan.</b></th>
         <td>{$ujian->jumlah_soal}</td>
-        <th><b>Lecturer</b></th>
+        <th><b>Dosen</b></th>
         <td>{$ujian->nama_dosen}</td>
     </tr>
     <tr>
@@ -100,7 +100,7 @@ Semua informasi yang ada di bawah adalah Nilai Tertinggi, Nilai Terendah, dan Ra
     <tr>
         <th><b>Tanggal Selesai</b></th>
         <td>{$selesai}</td>
-        <th><b>Average Score</b></th>
+        <th><b>Nilai Rata - rata</b></th>
         <td>{$nilai->avg_nilai}</td>
     </tr>
 </table>

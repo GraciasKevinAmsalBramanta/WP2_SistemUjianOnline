@@ -95,7 +95,7 @@
                     </tr>
                     <tr>
                         <th>Jenis Kelamin</th>
-                        <td><?= $mahasiswa->jenis_kelamin === 'M' ? "Male" : "Female"; ?></td>
+                        <td><?= $mahasiswa->jenis_kelamin === 'L' ? "Laki - laki" : "Perempuan"; ?></td>
                     </tr>
                     <tr>
                         <th>Email</th>
@@ -114,7 +114,7 @@
         </div>
         <div class="col-sm-8">
             <div class="box box-solid">
-                <div class="box-header bg-yellow">
+                <div class="box-header bg-purple">
                     <h3 class="box-title">Perhatian!</h3>
                 </div>
                 <div class="box-body">
