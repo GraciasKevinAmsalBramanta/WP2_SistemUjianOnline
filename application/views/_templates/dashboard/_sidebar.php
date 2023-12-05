@@ -124,10 +124,10 @@
 					</a>
 				</li>
 				<!-- <li class="<?= $page === 'settings' ? "active" : "" ?>">
-				<a href="<?= base_url('settings') ?>" rel="noopener noreferrer">
-					<i class="fa fa-cogs"></i> <span>Pengaturan</span>
-				</a>
-			</li> -->
+					<a href="<?= base_url('settings') ?>" rel="noopener noreferrer">
+						<i class="fa fa-cogs"></i> <span>Pengaturan</span>
+					</a>
+				</li> -->
 			<?php endif; ?>
 		</ul>
 

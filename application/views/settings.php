@@ -10,7 +10,7 @@
     </div>
     <div class="box-body">
         <p>
-        All data will be deleted except for the "Admin Account".
+            All data will be deleted except for the "Admin Account".
         </p>
         <button type="button" id="truncate" class="btn btn-danger btn-flat">
             <i class="fa fa-trash"></i> Clear Table
@@ -19,11 +19,11 @@
 </div>
 
 <script type="text/javascript">
-    $(document).ready(function(){
+    $(document).ready(function() {
 
-        $('#truncate').on('click', function(e){
+        $('#truncate').on('click', function(e) {
             e.preventDefault();
-            
+
             Swal({
                 text: "Clear Table",
                 title: "Are you sure about this?",
@@ -31,10 +31,10 @@
                 showCancelButton: true,
                 cancelButtonColor: '#dd4b39'
             }).then((result) => {
-                if(result.value){
+                if (result.value) {
                     $(this).attr('disabled', 'disabled').text('Proses...');
-                    var jqxhr = $.getJSON('<?= base_url() ?>settings/truncate', function(response){
-                        if(response.status){
+                    var jqxhr = $.getJSON('<?= base_url() ?>settings/truncate', function(response) {
+                        if (response.status) {
                             Swal({
                                 title: "Successful",
                                 text: "All tables have been emptied, except for the Admin account on the user table.",
@@ -42,16 +42,16 @@
                             });
                         }
                     });
-                    
+
                     jqxhr.done(function() {
-                        console.log( "ajax complete" );
+                        console.log("ajax complete");
                         $('#truncate').removeAttr('disabled').html('<i class="fa fa-trash"></i> Clear Table');
                     });
 
                 }
             });
-            
+
         });
-        
+
     });
 </script> -->

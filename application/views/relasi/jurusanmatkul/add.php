@@ -23,7 +23,7 @@
             <div class="col-sm-4">
                 <?= form_open('jurusanmatkul/save', array('id' => 'jurusanmatkul'), array('method' => 'add')) ?>
                 <div class="form-group">
-                    <label>Kelas</label>
+                    <label>Mata Kuliah</label>
                     <select name="matkul_id" class="form-control select2" style="width: 100%!important">
                         <option value="" disabled selected></option>
                         <?php foreach ($matkul as $m) : ?>
