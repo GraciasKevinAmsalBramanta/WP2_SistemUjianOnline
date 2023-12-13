@@ -19,6 +19,11 @@
 			<span class="glyphicon glyphicon-lock form-control-feedback"></span>
 			<span class="help-block"></span>
 		</div>
+		<div class="form-group has-feedback">
+			<?= $image ?>
+			<input type="text" name="captcha" value="" id="captcha" placeholder="Masukkan Captcha" autofocus="autofocus" class="form-control mt-3" autocomplete="off">
+			<span class="help-block"></span>
+		</div>
 		<div class="row">
 			<div class="col-xs-8">
 				<div class="checkbox icheck">
